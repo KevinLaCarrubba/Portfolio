@@ -1,0 +1,85 @@
+header {
+    border-bottom: 1px solid #dddddd;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    .navContainer {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        margin: 0px auto;
+        padding: 0px 1.5rem;
+
+        .logoContainer {
+            .link {
+                text-decoration: none;
+                .firstLetter {
+                    font-size: 3rem;
+                    font-weight: 700;
+                    color: var(--ColorOne);
+                }
+                .nameLetters {
+                    color: var(--ColorTwo);
+                    font-weight: 700;
+                    font-size: 2rem;
+                }
+            }
+        }
+        nav {
+            box-sizing: inherit;
+            display: block;
+            .linkUl {
+                display: flex;
+                list-style: none;
+                margin: 0px;
+                transition: opacity 0.2s ease 0s, transform 0.2s ease 0s;
+                padding: 0px;
+                -webkit-box-align: stretch;
+                align-items: stretch;
+                li {
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                    margin: 1rem;
+                    transition: transform 0.2s ease 0s, text-shadow 0.2s ease 0s;
+                    letter-spacing: -0.5px;
+                    &:hover {
+                        animation: rainbow 3s infinite linear;
+                        transform: translateY(-2px);
+                    }
+
+                    a {
+                        padding: 0.5em 1em;
+                        color: var(--ColorOne);
+                        color: inherit;
+                        display: block;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        color: var(--FirstColor);
+    }
+    25% {
+        color: var(--SecondColor);
+    }
+    50% {
+        color: var(--ThirdColor);
+    }
+    75% {
+        color: var(--FourthColor);
+    }
+    100% {
+        color: var(--FifthColor);
+    }
+}
