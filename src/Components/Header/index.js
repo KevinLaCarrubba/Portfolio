@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
+
+import Hamburger from '../HamburgerMenu'
+
 import styles from './Header.module.scss'
 
 const Header = () => {
@@ -50,6 +53,7 @@ const Header = () => {
                             </li>
                         ))}
                     </ul>
+                    <Hamburger navItems={navItems} location={location} />
                 </nav>
             </div>
         </header>

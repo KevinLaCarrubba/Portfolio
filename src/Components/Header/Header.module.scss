@@ -83,3 +83,21 @@ header {
         color: var(--FifthColor);
     }
 }
+
+@media only screen and (max-width: 940px) {
+    .logoContainer {
+        .link {
+            .firstLetter {
+                font-size: 2.5rem !important;
+                font-weight: 600 !important;
+            }
+            .nameLetters {
+                font-weight: 600 !important;
+                font-size: 1.5rem !important;
+            }
+        }
+    }
+    .linkUl {
+        display: none !important;
+    }
+}
