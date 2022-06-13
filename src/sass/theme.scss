@@ -1,10 +1,12 @@
 :root {
-    --ColorOne: #2aa7bc;
-    --ColorTwo: #758283;
+    --ColorOne: rgb(42, 167, 188);
+    --ColorTwo: #333333;
     //5 rainbow hover colors
     --FirstColor: #2e6399;
     --SecondColor: #528fcc;
     --ThirdColor: #80bfff;
     --FourthColor: var(--SecondColor);
     --FifthColor: var(--FirstColor);
+    //See color one to chnage
+    --OverLayColor: rgba(42, 167, 188, 0.5);
 }

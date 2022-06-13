@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 //Page imports
-import LandingPage from './Pages/LandingPage'
+import AboutPage from './Pages/AboutPage'
 
 //Component imports
 import Header from './Components/Header'
@@ -9,11 +9,13 @@ import './sass/app.scss'
 
 const App = () => {
     return (
-        <div>
+        <div className="app-container">
             <Header />
-            <Routes>
-                <Route path="/" element={<LandingPage />} />
-            </Routes>
+            <div className="page-content">
+                <Routes>
+                    <Route path="/" element={<AboutPage />} />
+                </Routes>
+            </div>
         </div>
     )
 }

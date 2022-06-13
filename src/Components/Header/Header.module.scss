@@ -4,6 +4,8 @@ header {
     top: 0px;
     left: 0px;
     right: 0px;
+    background-color: white;
+
     z-index: 999;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
         rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -55,10 +57,14 @@ header {
 
                     a {
                         padding: 0.5em 1em;
-                        color: var(--ColorOne);
+
                         color: inherit;
                         display: block;
                         text-decoration: none;
+                    }
+                    .activeLink {
+                        font-weight: 500;
+                        color: var(--ColorOne);
                     }
                 }
             }

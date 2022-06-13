@@ -43,10 +43,10 @@ const Header = () => {
                             <li key={index}>
                                 <Link
                                     to={item.url}
-                                    style={
+                                    className={
                                         location.pathname === item.url
-                                            ? { fontWeight: 500 }
-                                            : {}
+                                            ? styles.activeLink
+                                            : ''
                                     }>
                                     {item.label}
                                 </Link>
