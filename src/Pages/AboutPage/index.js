@@ -25,13 +25,13 @@ const AboutPage = () => {
                             Junior Front-End Developer<span>.</span>{' '}
                         </p>
                         <p>
-                            Word<span>.</span>{' '}
+                            Trait<span>.</span>{' '}
                         </p>
                         <p>
-                            Word<span>.</span>{' '}
+                            Trait<span>.</span>{' '}
                         </p>
                         <p>
-                            Word<span>.</span>{' '}
+                            Trait<span>.</span>{' '}
                         </p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const AboutPage = () => {
                     </div>
                 </div>
                 <div className={styles.flipBox}>
-                    <div className={styles.flipBoxInner}>
+                    <div className={styles.CartWheel}>
                         <div className={styles.frontside}>
                             <h2>Education</h2>
                         </div>
@@ -68,7 +68,7 @@ const AboutPage = () => {
                     </div>
                 </div>
                 <div className={styles.flipBox}>
-                    <div className={styles.flipBoxInner}>
+                    <div className={styles.CartWheel}>
                         <div className={styles.frontside}>
                             <h2>Skills</h2>
                         </div>
