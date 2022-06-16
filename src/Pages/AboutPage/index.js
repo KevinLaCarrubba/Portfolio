@@ -1,4 +1,19 @@
 import React from 'react'
+import {
+    ReactIcon,
+    CSSIcon,
+    SASSIcon,
+    HTMLIcon,
+    JSIcon,
+    NodeJsIcon,
+    MySQLIcon,
+    MongoDBIcon,
+    GraphQLIcon,
+    ApolloGQLIcon,
+    GitIcon,
+    NextJSIcon,
+    TSIcon
+} from '../../Components/SvgIcons/Svg'
 
 //Component Import
 
@@ -22,16 +37,16 @@ const AboutPage = () => {
                     </h1>
                     <div className={styles.myInfo}>
                         <p>
-                            Junior Front-End Developer<span>.</span>{' '}
+                            Junior Front-End Developer<span>.</span>
                         </p>
                         <p>
-                            Trait<span>.</span>{' '}
+                            Trait<span>.</span>
                         </p>
                         <p>
-                            Trait<span>.</span>{' '}
+                            Trait<span>.</span>
                         </p>
                         <p>
-                            Trait<span>.</span>{' '}
+                            Trait<span>.</span>
                         </p>
                     </div>
                 </div>
@@ -73,7 +88,21 @@ const AboutPage = () => {
                             <h2>Skills</h2>
                         </div>
                         <div className={styles.backside}>
-                            <h1>FIGURE IT OUT!</h1>
+                            <div className={styles.container}>
+                                <ReactIcon />
+                                <CSSIcon />
+                                <SASSIcon />
+                                <HTMLIcon />
+                                <JSIcon />
+                                <NodeJsIcon />
+                                <MySQLIcon />
+                                <MongoDBIcon />
+                                <GraphQLIcon />
+                                <ApolloGQLIcon />
+                                <GitIcon />
+                                <NextJSIcon />
+                                <TSIcon />
+                            </div>
                         </div>
                     </div>
                 </div>
