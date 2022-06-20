@@ -88,20 +88,21 @@ const AboutPage = () => {
                             <h2>Skills</h2>
                         </div>
                         <div className={styles.backside}>
-                            <div className={styles.container}>
-                                <ReactIcon />
+                            <div className={styles.iconContainer}>
+                                <HTMLIcon />
                                 <CSSIcon />
                                 <SASSIcon />
-                                <HTMLIcon />
+                                <ReactIcon />
                                 <JSIcon />
+                                <TSIcon />
+                                <NextJSIcon />
                                 <NodeJsIcon />
                                 <MySQLIcon />
                                 <MongoDBIcon />
                                 <GraphQLIcon />
                                 <ApolloGQLIcon />
+                                <div />
                                 <GitIcon />
-                                <NextJSIcon />
-                                <TSIcon />
                             </div>
                         </div>
                     </div>
