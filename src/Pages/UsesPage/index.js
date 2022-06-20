@@ -1,7 +1,7 @@
 import React from 'react'
 
-const uses = () => {
+const Uses = () => {
     return <div>uses</div>
 }
 
-export default uses
+export default Uses

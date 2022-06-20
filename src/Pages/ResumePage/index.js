@@ -1,7 +1,7 @@
 import React from 'react'
 
-const resume = () => {
+const Resume = () => {
     return <div>resume</div>
 }
 
-export default resume
+export default Resume
