@@ -15,9 +15,15 @@ import {
     TSIcon
 } from '../../Components/SvgIcons/Svg'
 
-//Component Import
+import {
+    GiGraduateCap,
+    GiCycling,
+    GiGamepad,
+    GiConverseShoe,
+    GiGymBag
+} from 'react-icons/gi'
+import { BiCodeAlt, BiSliderAlt } from 'react-icons/bi'
 
-//Styles
 import styles from './AboutPage.module.scss'
 
 const AboutPage = () => {
@@ -36,11 +42,11 @@ const AboutPage = () => {
                         Hey, I'm <span className={styles.myName}>Kevin</span>.
                     </h1>
                     <div className={styles.myInfo}>
-                        <p>
+                        <p data-show>
                             Junior Front-End Developer<span>.</span>
                         </p>
                         <p>
-                            Trait<span>.</span>
+                            Dog Lover<span>.</span>
                         </p>
                         <p>
                             Trait<span>.</span>
@@ -55,27 +61,62 @@ const AboutPage = () => {
                 <div className={styles.flipBox}>
                     <div className={styles.flipBoxInner}>
                         <div className={styles.frontside}>
-                            <h2>Hobbies</h2>
+                            <div className={styles.hobbyContainer}>
+                                <div className={styles.iconContainer}>
+                                    <GiCycling className={styles.icon} />
+                                    <GiGamepad className={styles.icon} />
+                                    <GiConverseShoe className={styles.icon} />
+                                    <GiGymBag className={styles.icon} />
+                                </div>
+                                <p>Hobbies &amp; Interests</p>
+                            </div>
                         </div>
                         <div className={styles.backside}>
-                            <h1>SHOTS !</h1>
+                            <div className={styles.hobbyContainer}>
+                                <div>Cycling</div>
+                                <div>Gaming</div>
+                                <div>Coding</div>
+                                <div>Sneakers</div>
+                                <div></div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className={styles.flipBox}>
                     <div className={styles.CartWheel}>
                         <div className={styles.frontside}>
-                            <h2>Education</h2>
+                            <div className={styles.eduContainer}>
+                                <GiGraduateCap className={styles.icon} />
+                                <p>Education</p>
+                            </div>
                         </div>
                         <div className={styles.backside}>
-                            <h1>I KNOW SOME SHIT!</h1>
+                            <div className={styles.eduContainer}>
+                                <div className={styles.bootCamp}>
+                                    <h4>Rutgers Coding Bootcamp</h4>
+                                    <h4>2021</h4>
+                                    <p>
+                                        Full Stack Web Development focused in
+                                        both front end and back end javascript
+                                        technologies{' '}
+                                    </p>
+                                </div>
+                                <div className={styles.college}>
+                                    <h4>Bergen Community College</h4>
+                                    <h4>2021</h4>
+                                    <p>Computer Science A.S</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className={styles.flipBox}>
                     <div className={styles.flipBoxInner}>
                         <div className={styles.frontside}>
-                            <h2>Preferences</h2>
+                            <div className={styles.prefContainer}>
+                                <BiSliderAlt className={styles.icon} />
+                                <p>Preferences</p>
+                            </div>
                         </div>
                         <div className={styles.backside}>
                             <h1>WORK FROM HOME!</h1>
@@ -85,15 +126,21 @@ const AboutPage = () => {
                 <div className={styles.flipBox}>
                     <div className={styles.CartWheel}>
                         <div className={styles.frontside}>
-                            <h2>Skills</h2>
+                            <div className={styles.skillsContainer}>
+                                <BiCodeAlt className={styles.icon} />
+                                <p>
+                                    Tech
+                                    <span>knowledge</span>y
+                                </p>
+                            </div>
                         </div>
                         <div className={styles.backside}>
                             <div className={styles.iconContainer}>
                                 <HTMLIcon />
                                 <CSSIcon />
                                 <SASSIcon />
-                                <ReactIcon />
                                 <JSIcon />
+                                <ReactIcon />
                                 <TSIcon />
                                 <NextJSIcon />
                                 <NodeJsIcon />
@@ -103,6 +150,7 @@ const AboutPage = () => {
                                 <ApolloGQLIcon />
                                 <div />
                                 <GitIcon />
+                                <div />
                             </div>
                         </div>
                     </div>
