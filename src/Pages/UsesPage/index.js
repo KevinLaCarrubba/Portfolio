@@ -1,7 +1,8 @@
 import React from 'react'
+import styles from './UsesPage.module.scss'
 
-const Uses = () => {
-    return <div>uses</div>
+const UsesPage = () => {
+    return <div>UsesPage</div>
 }
 
-export default Uses
+export default UsesPage
