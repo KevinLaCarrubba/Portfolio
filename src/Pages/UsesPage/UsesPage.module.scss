@@ -1,11 +1,10 @@
 .container {
-    padding: 7rem 15rem 0 15rem;
+    padding: 7rem;
     display: flex;
     justify-content: center;
     column-gap: 10rem;
 
     .leftSide {
-        position: sticky;
         h1 {
             font-size: 3rem;
             font-weight: 200;
@@ -40,6 +39,8 @@
             }
         }
         .rightBelow {
+            position: relative;
+
             section {
                 width: 100%;
 
@@ -49,19 +50,47 @@
                     padding-bottom: 0.3rem;
                     font-weight: 500;
                 }
+
                 .listContainer {
                     display: flex;
                     flex-direction: column;
                     .innerList {
                         display: flex;
                         .innerSection {
-                            width: 10rem;
+                            min-width: 10rem;
                         }
                         .list {
                             list-style-type: none;
                             font-weight: 600;
                             li {
                                 font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0 0 0;
+
+        .leftSide {
+            padding: 1rem;
+        }
+        .rightSide {
+            width: 100%;
+            .rightBelow {
+                padding: 1rem;
+                section {
+                    .listContainer {
+                        .innerList {
+                            .innerSection {
+                                min-width: 8rem;
                             }
                         }
                     }
