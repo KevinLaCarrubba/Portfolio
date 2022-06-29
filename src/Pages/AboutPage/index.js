@@ -235,11 +235,17 @@ const AboutPage = () => {
                         </div>
                         <div className={styles.backside}>
                             <div className={styles.hobbyContainer}>
-                                <div>Cycling</div>
-                                <div>Gaming</div>
-                                <div>Coding</div>
-                                <div>Sneakers</div>
-                                <div></div>
+                                <div className={styles.hobbyList}>
+                                    <ul>
+                                        My Hobbies Include:
+                                        <li>PC Building</li>
+                                        <li>Cycling</li>
+                                        <li>Cooking</li>
+                                        <li>Gaming</li>
+                                        <li>Coding</li>
+                                        <li>Gym</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -282,6 +288,7 @@ const AboutPage = () => {
                         </div>
                         <div className={styles.backside}>
                             <div className={styles.prefContainer}>
+                                <h4 className={styles.iPrefer}>I Prefer..</h4>
                                 <div className={styles.sliderContainer}>
                                     <label
                                         className={styles.label1}
@@ -406,10 +413,10 @@ const AboutPage = () => {
                                 <MySQLIcon />
                                 <MongoDBIcon />
                                 <GraphQLIcon />
-                                <ApolloGQLIcon />
-                                <div />
+                                {/* <ApolloGQLIcon /> */}
+                                {/* <div /> */}
                                 <GitIcon />
-                                <div />
+                                {/* <div /> */}
                             </div>
                         </div>
                     </div>
