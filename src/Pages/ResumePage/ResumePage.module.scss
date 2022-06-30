@@ -1,0 +1,268 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+    .heading {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            .firstName {
+                font-weight: 300;
+                color: var(--ColorTwo);
+                letter-spacing: 0.4rem;
+                font-size: 4rem;
+            }
+            .lastName {
+                font-weight: 300;
+                font-size: 4rem;
+                color: var(--ColorOne);
+                letter-spacing: 0.4rem;
+            }
+        }
+        h6 {
+            margin: 0;
+            font-weight: 300;
+            font-size: 1rem;
+            letter-spacing: 0.5rem;
+        }
+    }
+    .mainSection {
+        display: grid;
+        grid-template-columns: 0.5fr 2fr;
+        column-gap: 5rem;
+        .leftSide {
+            display: flex;
+            flex-direction: column;
+            padding-right: 5rem;
+            border-right: 1px dotted grey;
+            hr {
+                width: 100%;
+            }
+            .contactBox {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: flex-end;
+                h3 {
+                    background-color: var(--ColorTwo);
+                    color: var(--ColorOne);
+                    padding: 0.3rem 0.4rem 0.4rem 5rem;
+                    font-weight: 400;
+                    letter-spacing: 0.2rem;
+                }
+                .contactLine {
+                    display: flex;
+                    align-items: center;
+                    column-gap: 4px;
+                    p {
+                        font-size: small;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .eduBox {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: flex-end;
+
+                h3 {
+                    background-color: var(--ColorTwo);
+                    color: var(--ColorOne);
+                    padding: 0.3rem 0.4rem 0.4rem 3.4rem;
+                    font-weight: 400;
+                    letter-spacing: 0.2rem;
+                }
+                .eduLine {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    padding-bottom: 1rem;
+                    p {
+                        margin: 0;
+                    }
+                    .schoolName {
+                        font-size: small;
+                        font-weight: 500;
+                    }
+                    .year {
+                        font-size: small;
+                        font-weight: 300;
+                    }
+                    .degree {
+                        font-size: small;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .skillsBox {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: flex-end;
+                h3 {
+                    background-color: var(--ColorTwo);
+                    color: var(--ColorOne);
+                    padding: 0.3rem 0.4rem 0.4rem 6.4rem;
+                    font-weight: 400;
+                    letter-spacing: 0.2rem;
+                }
+                p {
+                    font-size: small;
+                    font-weight: 300;
+                    margin: 0.1rem;
+                }
+            }
+        }
+        .rightSide {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            hr {
+                width: 100%;
+            }
+            .profileBox {
+                h3 {
+                    background-color: var(--ColorTwo);
+                    color: var(--ColorOne);
+                    padding: 0.3rem 5rem 0.4rem 0.5rem;
+                    font-weight: 400;
+                    letter-spacing: 0.2rem;
+                    width: 7rem;
+                }
+                p {
+                    font-weight: 300;
+                }
+            }
+            .expBox {
+                h3 {
+                    background-color: var(--ColorTwo);
+                    color: var(--ColorOne);
+                    padding: 0.3rem 2rem 0.4rem 0.5rem;
+                    font-weight: 400;
+                    letter-spacing: 0.2rem;
+                    width: 10rem;
+                }
+                .jobTitle {
+                    font-weight: 500;
+                    margin: 0;
+                }
+                .companyInfo {
+                    font-weight: 300;
+                    margin: 0;
+                    font-size: small;
+                }
+                ul {
+                    padding-left: 1rem;
+                    li {
+                        font-weight: 300;
+                        margin: 0.2rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .container {
+        padding: 3rem;
+        .heading {
+            padding-bottom: 2rem;
+            h1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .mainSection {
+            display: grid;
+            grid-template-columns: 0.2fr 4fr;
+            column-gap: 3rem;
+            .leftSide {
+                padding-right: 3rem;
+                border: none;
+                border-right: 1px dotted grey;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 540px) {
+    .container {
+        padding: 3rem;
+        .heading {
+            padding-bottom: 2rem;
+            h1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .mainSection {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+            column-gap: none;
+            .leftSide {
+                padding-right: 0;
+                border: none;
+                .contactBox {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: flex-start;
+                    h3 {
+                        background-color: var(--ColorTwo);
+                        color: var(--ColorOne);
+                        padding: 0.3rem 5rem 0.4rem 0.5rem;
+                        font-weight: 400;
+                        letter-spacing: 0.2rem;
+                    }
+                }
+                .eduBox {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: flex-start;
+                    h3 {
+                        background-color: var(--ColorTwo);
+                        color: var(--ColorOne);
+                        padding: 0.3rem 3.7rem 0.4rem 0.5rem;
+                        font-weight: 400;
+                        letter-spacing: 0.2rem;
+                    }
+                }
+                .skillsBox {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: flex-start;
+                    h3 {
+                        background-color: var(--ColorTwo);
+                        color: var(--ColorOne);
+                        padding: 0.3rem 7rem 0.4rem 0.5rem;
+                        font-weight: 400;
+                        letter-spacing: 0.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .container {
+        .heading {
+            h1 {
+                .firstName {
+                    letter-spacing: 0.2rem;
+                }
+                .lastName {
+                    letter-spacing: 0.2rem;
+                }
+            }
+        }
+    }
+}
