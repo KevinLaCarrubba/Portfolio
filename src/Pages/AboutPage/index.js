@@ -9,7 +9,6 @@ import {
     MySQLIcon,
     MongoDBIcon,
     GraphQLIcon,
-    ApolloGQLIcon,
     GitIcon,
     NextJSIcon,
     TSIcon

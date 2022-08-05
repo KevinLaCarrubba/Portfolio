@@ -96,11 +96,22 @@ const ResumePage = () => {
                             Incyree INC. | Skillman, NJ | Dec 2021 - June 2022
                         </p>
                         <ul>
-                            <li>Type</li>
-                            <li>Stuff</li>
-                            <li>That Sound</li>
-                            <li>Stupid</li>
-                            <li>Here</li>
+                            <li>Worked with React and NodeJS.</li>
+                            <li>
+                                Created an interaction managment system for a
+                                client to track contacts, meetings, and email
+                                threads.
+                            </li>
+                            <li>
+                                Built 3 dashboards for different branches of a
+                                financial advisory company using charts and
+                                tables to keep track of data.
+                            </li>
+                            <li>
+                                Worked with a rules engine to calculate date
+                                deadlines and display it on the UI.
+                            </li>
+                            <li>Used Jira to track and complete tasks.</li>
                         </ul>
                         <p className={styles.jobTitle}>Server</p>
                         <p className={styles.companyInfo}>
