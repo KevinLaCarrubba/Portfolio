@@ -7,20 +7,20 @@ const UsesPage = () => {
     const deskitemRef = useRef(null)
     const otherRef = useRef(null)
 
-    const scrollTo = event => {
-        if (event.target.className === 'hardware') {
-            hardwareRef.current.scrollIntoView({ behavior: 'smooth' })
-        }
-        if (event.target.className === 'software') {
-            softwareRef.current.scrollIntoView({ behavior: 'smooth' })
-        }
-        if (event.target.className === 'deskitem') {
-            deskitemRef.current.scrollIntoView({ behavior: 'smooth' })
-        }
-        if (event.target.className === 'other') {
-            otherRef.current.scrollIntoView({ behavior: 'smooth' })
-        }
-    }
+    // const scrollTo = event => {
+    //     if (event.target.className === 'hardware') {
+    //         hardwareRef.current.scrollIntoView({ behavior: 'smooth' })
+    //     }
+    //     if (event.target.className === 'software') {
+    //         softwareRef.current.scrollIntoView({ behavior: 'smooth' })
+    //     }
+    //     if (event.target.className === 'deskitem') {
+    //         deskitemRef.current.scrollIntoView({ behavior: 'smooth' })
+    //     }
+    //     if (event.target.className === 'other') {
+    //         otherRef.current.scrollIntoView({ behavior: 'smooth' })
+    //     }
+    // }
     return (
         <div className={styles.container}>
             <div className={styles.leftSide}>
