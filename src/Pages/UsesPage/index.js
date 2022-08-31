@@ -54,9 +54,9 @@ const UsesPage = () => {
                                 <div>
                                     <ul className={styles.list}>
                                         Custom Built PC
-                                        <li>CPU: Ryzen</li>
-                                        <li>GPU: 2080 Super</li>
-                                        <li>Ram: 32gb</li>
+                                        <li>CPU: AMD Ryzen 9 3900x</li>
+                                        <li>GPU: Aorus Nvidia 2080 Super</li>
+                                        <li>Ram: Corsair Vengence 32gb</li>
                                         <li>Cooling: Custom EKWB Hard Loop</li>
                                         <li>Fans: 15x Corsair ML120 RGB</li>
                                         <li>Storage: 3x 1TB m.2</li>
@@ -70,15 +70,13 @@ const UsesPage = () => {
                                 <div>
                                     <ul className={styles.list}>
                                         Mac Studio
-                                        <li>CPU: Apple M1 Max</li>
-                                        <li>GPU: Apple M1 Max 24-core</li>
+                                        <li>Chip: Apple M1 Max 24-core</li>
                                         <li>Ram: 32gb</li>
                                         <li>Storage: 512gb</li>
                                     </ul>
                                     <ul className={styles.list}>
                                         MacBook Pro 13" M1
-                                        <li>CPU: Apple M1</li>
-                                        <li>GPU: </li>
+                                        <li>Chip: Apple M1</li>
                                         <li>RAM: 8gb</li>
                                         <li>Storage: </li>
                                     </ul>
