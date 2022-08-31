@@ -96,20 +96,27 @@ const ResumePage = () => {
                             Incyree INC. | Skillman, NJ | Dec 2021 - June 2022
                         </p>
                         <ul>
-                            <li>Worked with React and NodeJS.</li>
                             <li>
-                                Created an interaction managment system for a
-                                client to track contacts, meetings, and email
-                                threads.
+                                Worked with React to develop pages and
+                                components for both a forum site and a financial
+                                advisory company.
                             </li>
                             <li>
-                                Built 3 dashboards for different branches of a
-                                financial advisory company using charts and
-                                tables to keep track of data.
+                                Created an Interaction Management System to
+                                allow for the financial advisory company’s
+                                clients to tract contacts, meetings, email
+                                threads, and notes.
                             </li>
                             <li>
-                                Worked with a rules engine to calculate date
-                                deadlines and display it on the UI.
+                                Built 3 dashboards for the different branches of
+                                the financial advisory company using chartsJS
+                                and data grids to keep data readable and
+                                organized.
+                            </li>
+                            <li>
+                                Worked closely with backend devs to create a
+                                rules engine to calculate date deadlines and
+                                display it on the UI.
                             </li>
                             <li>Used Jira to track and complete tasks.</li>
                         </ul>
