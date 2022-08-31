@@ -14,11 +14,13 @@ const ProjectsPage = () => {
                 <div className={styles.appView}>
                     <h4 className={styles.appName}>Weather App</h4>
                     <div className={styles.infoContainer}>
-                        <img
-                            className={styles.appImage}
-                            src={WeatherApp}
-                            alt="Weather App Display"
-                        />
+                        <a href="">
+                            <img
+                                className={styles.appImage}
+                                src={WeatherApp}
+                                alt="Weather App Display"
+                            />
+                        </a>
                         <div className={styles.tagBox}>
                             <div className={styles.tag}>React</div>
                             <div className={styles.tag}>Sass</div>
