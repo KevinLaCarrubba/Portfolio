@@ -14,7 +14,7 @@ const ProjectsPage = () => {
                 <div className={styles.appView}>
                     <h4 className={styles.appName}>Weather App</h4>
                     <div className={styles.infoContainer}>
-                        <a href="">
+                        <a href="https://luxury-yeot-4a744e.netlify.app/">
                             <img
                                 className={styles.appImage}
                                 src={WeatherApp}
@@ -27,12 +27,12 @@ const ProjectsPage = () => {
                         </div>
                         <div className={styles.siteLinks}>
                             <div className={styles.link}>
-                                <a href="https://www.google.com">
+                                <a href="https://github.com/KevinLaCarrubba/weather-app">
                                     View Github Repo
                                 </a>
                             </div>
                             <div className={styles.link}>
-                                <a href="https://www.google.com">
+                                <a href="https://luxury-yeot-4a744e.netlify.app/">
                                     Launch Live Demo
                                 </a>
                             </div>
