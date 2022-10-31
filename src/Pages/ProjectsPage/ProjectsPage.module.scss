@@ -62,23 +62,22 @@
                 display: flex;
                 padding-top: 1rem;
                 column-gap: 3rem;
-
-                .link {
-                    display: flex;
-                    font-size: 12px;
-                    font-weight: 600;
-                    justify-content: center;
-                    width: 12rem;
-                    padding: 0.7rem;
-                    border-radius: 5rem;
-                    // background-color: rgba(108, 198, 68, 0.8);
-                    background-color: rgba(64, 120, 192, 0.7);
-                    border: 1psx solid rgb(64, 120, 192);
-                    cursor: pointer;
-                    transition: ease 0.6s;
-                    a {
-                        text-decoration: none;
-                        color: black;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    .link {
+                        display: flex;
+                        font-size: 12px;
+                        font-weight: 600;
+                        justify-content: center;
+                        width: 12rem;
+                        padding: 0.7rem;
+                        border-radius: 5rem;
+                        // background-color: rgba(108, 198, 68, 0.8);
+                        background-color: rgba(64, 120, 192, 0.7);
+                        border: 1psx solid rgb(64, 120, 192);
+                        cursor: pointer;
+                        transition: ease 0.6s;
                     }
                     &:hover {
                         transform: translateY(-0.2rem);
