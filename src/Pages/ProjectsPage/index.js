@@ -13,9 +13,9 @@ const ProjectsPage = () => {
         },
         {
             name: 'Photography Site',
-            url: 'https://steady-macaron-986588.netlify.app/',
+            url: 'https://stupendous-lollipop-df660d.netlify.app/',
             image: photo,
-            github: 'https://github.com/KevinLaCarrubba/weather-app',
+            github: 'https://github.com/KevinLaCarrubba/evanyu-photo-ui',
             tags: ['NextJs', 'TypeScript', 'Sass']
         },
         {

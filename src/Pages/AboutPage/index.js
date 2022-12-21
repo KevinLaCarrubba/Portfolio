@@ -34,7 +34,7 @@ const AboutPage = () => {
     const [windowsFont, setWindowsFont] = useState(14)
     //Pref 3
     const [nikeFont, setNikeFont] = useState(22)
-    const [addidasFont, setAddidasFont] = useState(14)
+    const [adidasFont, setAdidasFont] = useState(14)
     //Pref 4
     const [summerFont, setSummerFont] = useState(22)
     const [winterFont, setWinterFont] = useState(14)
@@ -94,30 +94,30 @@ const AboutPage = () => {
     const runBrandSwitch = brandValue => {
         if (brandValue === '8') {
             setNikeFont(14)
-            setAddidasFont(22)
+            setAdidasFont(22)
         } else if (brandValue === '7') {
             setNikeFont(15)
-            setAddidasFont(21)
+            setAdidasFont(21)
         } else if (brandValue === '6') {
             setNikeFont(16)
-            setAddidasFont(20)
+            setAdidasFont(20)
         } else if (brandValue === '5') {
             setNikeFont(17)
-            setAddidasFont(19)
+            setAdidasFont(19)
         } else if (brandValue === '4') {
             setNikeFont(18)
-            setAddidasFont(18)
+            setAdidasFont(18)
         } else if (brandValue === '3') {
             setNikeFont(19)
-            setAddidasFont(17)
+            setAdidasFont(17)
         } else if (brandValue === '2') {
             setNikeFont(20)
-            setAddidasFont(16)
+            setAdidasFont(16)
         } else if (brandValue === '1') {
             setNikeFont(21)
-            setAddidasFont(15)
+            setAdidasFont(15)
         } else if (brandValue === '0') {
-            setAddidasFont(14)
+            setAdidasFont(14)
             setNikeFont(22)
         }
     }
@@ -331,9 +331,9 @@ const AboutPage = () => {
                                         htmlFor="brand"
                                         className={styles.label2}
                                         style={{
-                                            fontSize: `${addidasFont}px`
+                                            fontSize: `${adidasFont}px`
                                         }}>
-                                        Addidas
+                                        Adidas
                                     </label>
                                 </div>
                                 <div className={styles.sliderContainer}>
