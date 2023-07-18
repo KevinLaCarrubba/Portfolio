@@ -43,7 +43,7 @@ const ContactPage = () => {
                     </ul>
                 </div>
                 <div
-                    className={`${styles.buttonContainer}  plausible-event-name=View Resume+Click`}>
+                    className={`${styles.buttonContainer}  plausible-event-name=View+Resume`}>
                     <Link
                         to="/resume"
                         className={styles.button}
