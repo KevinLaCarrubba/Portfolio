@@ -42,7 +42,8 @@ const ContactPage = () => {
                         </li>
                     </ul>
                 </div>
-                <div className={styles.buttonContainer}>
+                <div
+                    className={`${styles.buttonContainer}  plausible-event-name=View Resume+Click`}>
                     <Link
                         to="/resume"
                         className={styles.button}
