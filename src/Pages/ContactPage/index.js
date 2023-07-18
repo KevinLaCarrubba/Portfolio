@@ -2,6 +2,16 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './ContactPage.module.scss'
 import { GrGithub, GrLinkedin, GrMail } from 'react-icons/gr'
+import mixpanel from 'mixpanel-browser'
+mixpanel.init('052928e1717c43426aef3d1b3b518376', {
+    debug: true,
+    track_pageview: true,
+    persistence: 'localStorage'
+})
+mixpanel.identify('Kevin.LaCarrubba@yahoo.com')
+const onClickingTon = () => {
+    mixpanel.track('Resume Viewed')
+}
 
 const ContactPage = () => {
     return (
@@ -33,7 +43,10 @@ const ContactPage = () => {
                     </ul>
                 </div>
                 <div className={styles.buttonContainer}>
-                    <Link to="/resume" className={styles.button}>
+                    <Link
+                        to="/resume"
+                        className={styles.button}
+                        onClick={onClickingTon}>
                         Need My Resume ?
                     </Link>
                 </div>
