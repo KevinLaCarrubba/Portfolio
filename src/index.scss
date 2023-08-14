@@ -1,16 +1,9 @@
 @import './sass/app.scss';
 @import './sass/theme.scss';
 
-@font-face {
-    font-family: 'gistesyregular';
-    src: url('./sass/fonts/gistesy-webfont.woff2') format('woff2'),
-        url('./sass/fonts/gistesy-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 body {
     margin: 0;
-    font-family: 'gistesyregular', sans-serif;
+    font-family: 'Rubik', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
